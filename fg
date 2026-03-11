@@ -1,0 +1,12 @@
+#include "Ecran.h"
+
+Ecran::Ecran(std::string nom, int t)
+: Materiel(nom)
+{
+    taille = t;
+}
+
+int Ecran::getTaille() const
+{
+    return taille;
+}
